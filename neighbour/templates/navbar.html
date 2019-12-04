@@ -36,9 +36,11 @@
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
     </style>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">Neighbourhood Watch</a>
-
-  <div class="dropdown" style="nav-right: auto;">
+    <div>
+        <a href="/" id="brand"><img style="height: 50px;width: 50px;" class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRARIJs2b8r3KKXGCZZSdSa7AOR-Y_CMNlgd3zuLb7G4qd-Qb5K&s" alt=""></a>
+  
+      </div>
+  <div class="dropdown dropdown-right" style="margin-left: 1000px;">
     <span class="navbar-toggler-icon">
         <div class="dropdown-content">
 
@@ -64,7 +66,7 @@
     </div>
     </span>
   </div>  
-    <div class="nav-search">
+    <div class="nav-search" style="margin-left: 200px;">
     <form class="form-inline md-form form-md active-pink active-pink-2 mt-2"  action="{% url 'search_results'%}">
         <i class="fas fa-search" aria-hidden="true"></i>
       <input class="form-control ml-3 w-75" type="text" placeholder="search" aria-label="search" name="titles">
