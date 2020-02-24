@@ -59,7 +59,7 @@ git clone https://github.com/collinsbett29/Neighbourhood.git && cd hood
   * Django version 1.11
   * Bootstrap 3
   * Postgres Database
-  * Sqlite
+  * postgres
   * HTML & CSS 
   * Heroku
 
