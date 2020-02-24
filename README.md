@@ -68,6 +68,7 @@ To get more help on the Python CLI use ng help or go check out the Python CLI RE
 
 #### CONTACT INFORMATION
 For more information or clarification reach me through my email address : collinsbett29@gmail.com
+
 ## License
 
 This project is licenced under the MIT License.
